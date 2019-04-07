@@ -18,5 +18,23 @@ h1{
     font-size: 100px;
     font-family: 'Dokdo', cursive;
     color:yellowgreen;
+}
+
+h2{
+    width: 400px;
+    height: 50px;
+    font-family: 'Dokdo', cursive;
+    color:red;
+    position:absolute;
+    top:calc(55%);
+    left:calc(50% - 25px);
+}
+
+.github::after{
+    content: '';
+    display:block;
+    width: 90%;
+    height: 1px;
+    background-color: darkred;
 
 }
