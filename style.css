@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(10,20,30,1);
+
+}
+h1{
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top:calc(50% - 50px);
+    left:calc(50% - 225px);
+    font-size: 100px;
+    font-family: 'Dokdo', cursive;
+    color:yellowgreen;
+
+}
