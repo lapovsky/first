@@ -41,7 +41,7 @@ h2{
 div{
     width:200px;
     height: 200px;
-    background-color: rgb(47, 13, 45);
+    background-color: #7c9c7c;
     position:absolute;
     top:65%;
     left:calc(50% - 100px);
@@ -51,4 +51,17 @@ div{
 
 div:hover{
     transform: rotate(0);
+}
+
+button{
+    width:100px;
+    height: 50px;
+    position: absolute;
+    top:0;
+    right: 0;
+    border:nonel
+}
+
+button:hover{
+    cursor: pointer;
 }
