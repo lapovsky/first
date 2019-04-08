@@ -41,7 +41,7 @@ h2{
 div{
     width:200px;
     height: 200px;
-    background-color: #7c9c7c;
+    background-color: rgb(192, 92, 56);
     position:absolute;
     top:65%;
     left:calc(50% - 100px);
@@ -64,4 +64,10 @@ button{
 
 button:hover{
     cursor: pointer;
+}
+
+img{
+    position: absolute;
+    left:0;
+    bottom:0;
 }
